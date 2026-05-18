@@ -31,10 +31,24 @@ and Higher Education in Luxembourg
 - Sole Grand-Duchy in the World
 - 3 official languages (Luxembourguish, German, French)
 - A founder of the European Union
-- René Arend, a luxembourguish chef invented the McNugget and McRib
+
+## Intro: Luxembourg?
+
+- The US and Luxembourg are good friends
+- 19th and 20th century, lots of immigration
+- One of my dreams is to visit Luxembourg (WI)
 
 . . .
 
+![](img/luxembourg-wi.png){fig-align="center"}
+
+
+## Intro: Luxembourg?
+
+- The USA liberated Luxembourg from the Nazis in 1944 (September 10th)
+- René Arend, a luxembourguish chef invented the McNugget and McRib (I’d say we’re even)
+
+. . .
 
 ![](img/rene_arend.jpg){fig-align="center"}
 

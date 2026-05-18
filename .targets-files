@@ -72,9 +72,11 @@
 .quarto/xref/44e8a256
 .quarto/xref/78a16dc4
 .quarto/xref/7bf78000
+.quarto/xref/8f6b8abd
 .quarto/xref/8f95b181
 .quarto/xref/INDEX
 .quarto/xref/b6eea4d4
+.quarto/xref/bf3ffb70
 .quarto/xref/d0165ed2
 .targets-files
 .targets-runs/
@@ -147,6 +149,7 @@ _targets/meta/meta
 _targets/meta/process
 _targets/meta/progress
 _targets/objects/pres_change
+docs/img/luxembourg-wi.png
 docs/img/luxembourg.png
 docs/img/luxembourg2.png
 docs/img/play_store.png
