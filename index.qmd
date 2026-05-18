@@ -46,7 +46,7 @@ and Higher Education in Luxembourg
 ## Intro: Luxembourg?
 
 - The USA liberated Luxembourg from the Nazis in 1944 (September 10th)
-- René Arend, a luxembourguish chef invented the McNugget and McRib (I’d say we’re even)
+- René Arend, a luxembourguish chef invented the McNugget and McRib (so I’d say we’re even)
 
 . . .
 
@@ -251,6 +251,15 @@ my_analysis/
 - I wanted to stress-test the idea of a "reproducible by design" language
 - Challenges: input/output between languages
 
+## How did I build T?
+
+- 100% LLM generated Ocaml code
+- Start with a specification doc
+- Keep brainstorming, refining...
+- Give the doc to an LLM
+- Let another LLM review the work
+- Implement and review tests
+- Repeat!
 
 ## Fin
 
