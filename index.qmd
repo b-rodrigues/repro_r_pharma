@@ -33,6 +33,11 @@ and Higher Education in Luxembourg
 - A founder of the European Union
 - René Arend, a luxembourguish chef invented the McNugget and McRib
 
+. . .
+
+
+![](img/rene_arend.jpg){fig-align="center"}
+
 ## Intro: where to find the code
 
 Slides available online:
