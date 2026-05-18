@@ -1,7 +1,7 @@
 library(rix)
 
 rix(
-  date = "2025-06-02",
+  date = "2026-05-18",
   r_pkgs = c(
     "chronicler",
     "dplyr",
@@ -9,27 +9,17 @@ rix(
     "igraph",
     "quarto",
     "reticulate",
+    "rix",
+    "rixpress",
     "visNetwork"
   ),
-  git_pkgs = list(
-    list(
-      package_name = "rix",
-      repo_url = "https://github.com/ropensci/rix/",
-      commit = "HEAD"
-    ),
-    list(
-      package_name = "rixpress",
-      repo_url = "https://github.com/b-rodrigues/rixpress",
-      commit = "HEAD"
-    )
-  ),
   py_conf = list(
-    py_version = "3.13",
+    py_version = "3.14",
     py_pkgs = c(
       "polars"
     )
   ),
-  ide = "none",
+  ide = "positron",
   project_path = ".",
   overwrite = TRUE
 )
