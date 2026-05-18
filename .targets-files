@@ -67,10 +67,13 @@
 .quarto/project-cache/bf5b60f8e59b047f99413e09fb957aba
 .quarto/project-cache/deno-kv-file
 .quarto/project-cache/f8f8947983eeef1bfc930e5f2e6f7ed6
+.quarto/xref/176540e0
+.quarto/xref/44e8a256
 .quarto/xref/78a16dc4
 .quarto/xref/INDEX
 .quarto/xref/d0165ed2
 .targets-files
+.targets-runs/
 _freeze/index/execute-results/pptx.json
 _freeze/index/libs/revealjs/dist/reset.css
 _freeze/index/libs/revealjs/dist/reveal.css
