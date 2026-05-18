@@ -26,6 +26,13 @@ and Higher Education in Luxembourg
 
 ![](img/luxembourg2.png){fig-align="center"}
 
+## Intro: Luxembourg?
+
+- Sole Grand-Duchy in the World
+- 3 official languages (Luxembourguish, German, French)
+- A founder of the European Union
+- René Arend, a luxembourguish chef invented the McNugget and McRib
+
 ## Intro: where to find the code
 
 Slides available online:
@@ -178,7 +185,7 @@ list(
 
 
 ```bash
-nix shell github:b-rodrigues/tlang codex/wire-agents.md-and-t-language-reference.md-in-init
+nix shell github:b-rodrigues/tlang
 ```
 
 . . .
