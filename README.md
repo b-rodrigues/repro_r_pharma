@@ -1,8 +1,8 @@
-# Reproducible data science environments with {rix}
+# Reproducible data science
 
 Repository for my workshop at Oak Ridge National Laboratory on May 19th, 2026.
 
-Slides can be found here: https://b-rodrigues.github.io/repro\_r\_pharma
+Slides can be found here: https://b-rodrigues.github.io/repro_r_pharma
 
-Code examples can be found under `scripts/nix\_expressions/`
+Code examples can be found under `scripts/nix_expressions/`
 
