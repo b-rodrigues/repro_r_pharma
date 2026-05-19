@@ -1,4 +1,3 @@
-.gitignore
 .quarto/_freeze/index/execute-results/html.json
 .quarto/_freeze/index/execute-results/pptx.json
 .quarto/_freeze/index/libs/revealjs/dist/reset.css
@@ -65,12 +64,13 @@
 .quarto/_freeze/index/libs/revealjs/plugin/zoom/zoom.esm.js
 .quarto/_freeze/index/libs/revealjs/plugin/zoom/zoom.js
 .quarto/project-cache/bf5b60f8e59b047f99413e09fb957aba
-.quarto/project-cache/deno-kv-file
 .quarto/project-cache/f8f8947983eeef1bfc930e5f2e6f7ed6
 .quarto/xref/00544dc4
+.quarto/xref/0763c29d
 .quarto/xref/0da51616
 .quarto/xref/15eb8dd4
 .quarto/xref/176540e0
+.quarto/xref/421bb352
 .quarto/xref/44e8a256
 .quarto/xref/78a16dc4
 .quarto/xref/7bf78000
@@ -161,3 +161,7 @@ docs/img/rene_arend.jpg
 docs/index.html
 docs/index.pptx
 result
+.gitignore
+.quarto/project-cache/deno-kv-file
+.quarto/project-cache/deno-kv-file-shm
+.quarto/project-cache/deno-kv-file-wal

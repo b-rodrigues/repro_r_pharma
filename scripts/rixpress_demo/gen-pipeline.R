@@ -1,5 +1,5 @@
-library(rixpress)
 library(igraph)
+library(rixpress)
 
 list(
   rxp_py_file(
@@ -10,31 +10,31 @@ list(
 
   rxp_py(
     name = mtcars_pl_am,
-    py_expr = "mtcars_pl.filter(polars.col('am') == 0)",
-    additional_files = "functions.py",
-    serialize_function = "write_to_csv"
+    expr = "mtcars_pl.filter(polars.col('am') == 0)",
+    user_functions = "functions.py",
+    encoder = "write_to_csv"
   ),
 
   rxp_r(
     name = mtcars_head,
     expr = my_head(mtcars_pl_am),
-    additional_files = "functions.R",
-    serialize_function = "my_write.csv",
-    unserialize_function = "read.csv"
+    user_functions = "functions.R",
+    encoder = "my_write.csv",
+    decoder = "read.csv"
   ),
 
   rxp_py(
     name = mtcars_tail_py,
-    py_expr = 'mtcars_head.tail()',
-    additional_files = "functions.py",
-    serialize_function = "write_to_csv",
-    unserialize_function = "read_from_csv"
+    expr = "mtcars_head.tail()",
+    user_functions = "functions.py",
+    encoder = "write_to_csv",
+    decoder = "read_from_csv"
   ),
 
   rxp_r(
     name = mtcars_mpg,
     expr = dplyr::select(mtcars_tail_py, mpg),
-    unserialize_function = "read.csv"
+    decoder = "read.csv"
   ),
 
   rxp_qmd(
@@ -43,7 +43,5 @@ list(
     additional_files = c("my_doc/content.qmd", "my_doc/images")
   )
 ) |>
-  rixpress(project_path = ".")
+  rxp_populate(project_path = ".", build = TRUE)
 
-# Plot DAG for CI
-dag_for_ci()
