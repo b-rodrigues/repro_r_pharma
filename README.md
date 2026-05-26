@@ -6,3 +6,4 @@ Slides can be found here: https://b-rodrigues.github.io/repro_r_pharma
 
 Code examples can be found under `scripts/nix_expressions/`
 
+Video of the talk: https://youtu.be/wkjLVhaazRI?si=GwE8cacc76SGopmx
